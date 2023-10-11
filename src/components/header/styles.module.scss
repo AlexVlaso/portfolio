@@ -1,0 +1,50 @@
+@import '/src/assets/styles/vars.scss';
+
+.container {
+  padding: 10px;
+  margin: 0 auto;
+  width: 1141px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logoImg {
+  width: 70px;
+}
+
+.logoText {
+  font-size: 20px;
+}
+
+.navContainer {
+  padding: 10px;
+  display: flex;
+  background-color: $additional-color;
+  border-radius: 20px;
+  list-style-type: none;
+}
+
+.navLink {
+  padding: 0 25px;
+  border-right: 1px solid $yellow;
+  font-size: 14px;
+  text-transform: uppercase;
+  a {
+    color: $yellow;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+.navLink:last-child {
+  border-right: none;
+}

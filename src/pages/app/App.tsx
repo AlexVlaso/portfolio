@@ -1,9 +1,10 @@
+import { Header } from '../../components/header/header';
 import { Testing } from '../../components/testing/testing';
 
 function App() {
   return (
     <>
-      <h1>Title </h1>
+      <Header />
       <div style={{ display: 'flex' }}>
         <Testing color="rgb(56, 24, 21)" />
         <Testing color="rgb(203, 165, 96)" />
