@@ -1,7 +1,7 @@
 import logo from '../../../public/logo.png';
 import styles from './styles.module.scss';
 
-const Header = () => {
+const Header: React.FC = () => {
   return (
     <div className={styles.container}>
       <div className={styles.logo}>

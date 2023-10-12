@@ -1,0 +1,18 @@
+.container {
+  margin-top: 35px;
+  padding: 15px 15px 0;
+  display: flex;
+  gap: 30px;
+  border-radius: 20px;
+  .subtitle {
+    color: rgb(99, 20, 13);
+  }
+}
+
+.photo {
+  height: 500px;
+}
+
+.side {
+  font-size: 18px;
+}
