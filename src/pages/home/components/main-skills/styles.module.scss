@@ -1,11 +1,13 @@
+@import '/src/assets/styles/vars.scss';
+
 .container {
-  margin-top: 35px;
+  margin: 35px auto 0;
   padding: 15px 15px 0;
   display: flex;
   gap: 30px;
-  border-radius: 20px;
+  width: 1141px;
   .subtitle {
-    color: rgb(99, 20, 13);
+    color: $additional-light-color;
   }
 }
 
@@ -15,4 +17,19 @@
 
 .side {
   font-size: 18px;
+}
+
+.button {
+  margin-top: 25px;
+  padding: 10px 20px;
+  color: $yellow;
+  border: none;
+  border-radius: 8px;
+  background-color: $additional-color;
+  border: 2px solid $additional-dark-color;
+}
+
+.button:hover {
+  background-color: $additional-light-color;
+  cursor: pointer;
 }

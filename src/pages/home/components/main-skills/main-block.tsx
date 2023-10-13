@@ -1,4 +1,5 @@
-import main from '../../../../assets/img/main_4.png';
+import main from '../../../../assets/img/main.png';
+import { Social } from '../../../../components/social/social';
 import styles from './styles.module.scss';
 
 const MainBlock: React.FC = () => {
@@ -15,6 +16,8 @@ const MainBlock: React.FC = () => {
           dignissimos. Quod eos veritatis animi inventore. Fugiat natus nesciunt minima exercitationem architecto
           blanditiis excepturi earum iure voluptates.
         </div>
+        <Social />
+        <button className={styles.button}>Download CV</button>
       </div>
     </div>
   );

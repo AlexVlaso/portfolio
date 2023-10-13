@@ -1,0 +1,23 @@
+@import '/src/assets/styles/vars.scss';
+
+.container {
+  margin-top: 35px;
+  display: flex;
+  gap: 10px;
+}
+
+.socialItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  background-color: $additional-color;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  color: $yellow;
+}
+
+.socialItem:hover {
+  background-color: $additional-light-color;
+}
