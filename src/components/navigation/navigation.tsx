@@ -1,5 +1,6 @@
 import { clsx } from 'clsx';
 import styles from './styles.module.scss';
+import { Link } from 'react-router-dom';
 
 type Properties = {
   isColored?: boolean;
@@ -11,16 +12,16 @@ const Navigation: React.FC<Properties> = ({ isColored }: Properties) => {
   return (
     <ul className={navigationClassName}>
       <li className={styles.navLink}>
-        <a href="/">Home</a>
+        <Link to="/">Home</Link>
       </li>
       <li className={styles.navLink}>
-        <a href="/">About Me</a>
+        <Link to="/about">About Me</Link>
       </li>
       <li className={styles.navLink}>
-        <a href="/">Portfolio</a>
+        <Link to="/">Portfolio</Link>
       </li>
       <li className={styles.navLink}>
-        <a href="/">Contacts</a>
+        <Link to="/">Contacts</Link>
       </li>
     </ul>
   );
