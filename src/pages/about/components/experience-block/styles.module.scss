@@ -1,0 +1,126 @@
+@import '/src/assets/styles/vars.scss';
+
+.container {
+  margin: 50px auto 200px;
+  width: 1141px;
+}
+
+.title {
+  position: relative;
+  text-align: center;
+}
+
+.title::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: $additional-color;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.subtitle {
+  margin: 25px 0 15px;
+  text-align: center;
+}
+
+.divider {
+  margin: 15px auto;
+  width: 200px;
+  height: 5px;
+  background-color: $additional-color;
+}
+
+.wrapper {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+}
+
+.column {
+  width: 400px;
+}
+
+.columnTitle {
+  margin: 0;
+  text-align: center;
+  position: relative;
+}
+
+.columnTitle::before {
+  content: '';
+  position: absolute;
+  left: -7px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background: $additional-color;
+  z-index: 2;
+}
+
+.li {
+  padding-left: 40px;
+  position: relative;
+}
+
+.li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: -60px;
+  width: 2px;
+  height: calc(100% + 60px);
+  background-color: $grey;
+}
+
+.item {
+  margin-top: 50px;
+}
+
+.item::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 17px;
+  width: 40px;
+  height: 2px;
+  background-color: $grey;
+}
+
+.itemHeader {
+  margin-left: 40px;
+  position: relative;
+}
+
+.round {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: -50px;
+  top: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+  background-color: $additional-color;
+}
+
+.itemTitle {
+  font-weight: bold;
+}
+
+.itemSubtitle {
+  margin: 5px 0;
+  font-size: 12px;
+}
+
+.itemDesc {
+  font-size: 14px;
+}
