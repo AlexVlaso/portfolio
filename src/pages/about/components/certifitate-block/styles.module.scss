@@ -1,0 +1,23 @@
+.container {
+  margin: 50px auto;
+  width: 1141px;
+}
+
+.wrapper {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 20px;
+}
+
+.itemImg {
+  width: 350px;
+  height: 260px;
+  border-radius: 10px;
+}
+
+.itemDesc {
+  margin-top: 10px;
+  text-align: center;
+}

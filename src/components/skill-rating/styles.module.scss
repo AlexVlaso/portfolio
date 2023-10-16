@@ -1,0 +1,13 @@
+@import '/src/assets/styles/vars.scss';
+
+.skillRating {
+  width: 100%;
+  height: 15px;
+  background-color: $grey;
+}
+
+.skillRatingFill {
+  width: 80%;
+  height: 15px;
+  background-color: $additional-color;
+}

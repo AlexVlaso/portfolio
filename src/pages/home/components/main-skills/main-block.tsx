@@ -10,11 +10,10 @@ const MainBlock: React.FC = () => {
         <h1>Hi, I&apos;m Alexandr Vlasov </h1>
         <h2 className={styles.subtitle}>Frontend Developer</h2>
         <div>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore cupiditate, fuga vel dignissimos facere
-          neque quos rem dolore unde officia nemo doloribus aspernatur odit, consequatur ducimus placeat, mollitia
-          officiis deleniti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni harum a aut laudantium
-          dignissimos. Quod eos veritatis animi inventore. Fugiat natus nesciunt minima exercitationem architecto
-          blanditiis excepturi earum iure voluptates.
+          I am a goal-oriented Junior Frontend Developer with knowledge of HTML, CSS, JavaScript, TypeScript, React, and
+          Node.js seeking to use technical proficiency and creativity to develop engaging user experiences and advance
+          in a professional career. Looking to leverage effective debugging, code optimization and project collaboration
+          capabilities to produce applications that exceed user expectations.
         </div>
         <Social />
         <button className={styles.button}>Download CV</button>
