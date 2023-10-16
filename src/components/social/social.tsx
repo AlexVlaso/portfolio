@@ -5,16 +5,21 @@ import styles from './styles.module.scss';
 const Social: React.FC = () => {
   return (
     <div className={styles.container}>
-      <a href="/" className={styles.socialItem}>
+      <a
+        href="https://www.linkedin.com/in/alex-vlasov-js"
+        target="_blank"
+        className={styles.socialItem}
+        rel="noreferrer"
+      >
         <FontAwesomeIcon icon={faLinkedin} />
       </a>
-      <a href="/" className={styles.socialItem}>
+      <a href="https://github.com/AlexVlaso" target="_blank" className={styles.socialItem} rel="noreferrer">
         <FontAwesomeIcon icon={faGithub} />
       </a>
-      <a href="/" className={styles.socialItem}>
+      <a href="https://www.instagram.com/mr.alexvlas/" target="_blank" className={styles.socialItem} rel="noreferrer">
         <FontAwesomeIcon icon={faInstagram} />
       </a>
-      <a href="/" className={styles.socialItem}>
+      <a href="https://t.me/AlexVlas00" target="_blank" className={styles.socialItem} rel="noreferrer">
         <FontAwesomeIcon icon={faTelegram} />
       </a>
     </div>
