@@ -1,3 +1,4 @@
+import { SectionHeader } from '../../../../components/section-header/section-header';
 import { SkillIcon } from '../../../../components/skill-icon/skill-icon';
 import { IconPathMap } from '../../../../libs/maps/maps';
 import styles from './styles.module.scss';
@@ -5,9 +6,7 @@ import styles from './styles.module.scss';
 const SkillsBlock: React.FC = () => {
   return (
     <div className={styles.container}>
-      <h2 className={styles.title}>Skills</h2>
-      <h3 className={styles.subtitle}>Languages and Tools</h3>
-      <div className={styles.divider}></div>
+      <SectionHeader title="Skills" subtitle="Languages and Tools" />
       <div className={styles.skillsWrapper}>
         <div className={styles.skillsColumn}>
           <div className={styles.skillItem}>

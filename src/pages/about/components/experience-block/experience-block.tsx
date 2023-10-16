@@ -5,14 +5,12 @@ import designer from '../../../../assets/icon/designer.svg';
 import developer from '../../../../assets/icon/developer.svg';
 import certificate from '../../../../assets/icon/certificate.svg';
 import pc from '../../../../assets/icon/pc.svg';
+import { SectionHeader } from '../../../../components/section-header/section-header';
 
 const ExperienceBlock: React.FC = () => {
   return (
     <div className={styles.container}>
-      <h2 className={styles.title}>Experience</h2>
-      <h3 className={styles.subtitle}>Education and Experience</h3>
-      <div className={styles.divider}></div>
-
+      <SectionHeader title="Experience" subtitle="Education and Experience" />
       <div className={styles.wrapper}>
         <div className={styles.column}>
           <h2 className={styles.columnTitle}>Education</h2>
