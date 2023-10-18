@@ -16,7 +16,15 @@ const MainBlock: React.FC = () => {
           capabilities to produce applications that exceed user expectations.
         </div>
         <Social />
-        <button className={styles.button}>Download CV</button>
+        <a
+          href="https://drive.google.com/u/0/uc?id=1C_3yGZTvueE0C8ma-6bvEDZmZVYdc443&export=download"
+          target="_blank"
+          download="Olekandr_Vlasov"
+          className={styles.button}
+          rel="noreferrer"
+        >
+          Download CV
+        </a>
       </div>
     </div>
   );

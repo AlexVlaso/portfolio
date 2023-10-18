@@ -1,0 +1,43 @@
+@import '/src/assets/styles/vars.scss';
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 700px;
+  height: calc(100vh - 259px);
+}
+
+.infoWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.infoItem {
+  margin-top: 25px;
+  display: flex;
+  gap: 10px;
+}
+
+.links {
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.contactLink {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  background-color: $additional-color;
+}
+
+.contactLink:hover {
+  background-color: $additional-light-color;
+}

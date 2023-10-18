@@ -23,19 +23,19 @@ const SkillsBlock: React.FC = () => {
             <SkillIcon path={IconPathMap.java} alt="java" desc="Java" />
           </div>
           <div className={styles.skillItem}>
-            <div className={styles.skillDesc}>DataBases:</div>
-            <SkillIcon path={IconPathMap.mysql} alt="mysql" desc="MySql" />
-            <SkillIcon path={IconPathMap.postgresql} alt="postgresql" desc="PostgreSql" />
+            <div className={styles.skillDesc}>Databases:</div>
+            <SkillIcon path={IconPathMap.mysql} alt="mysql" desc="MySQL" />
+            <SkillIcon path={IconPathMap.postgresql} alt="postgresql" desc="PostgreSQL" />
           </div>
         </div>
         <div className={styles.skillsColumn}>
           <div className={styles.skillItem}>
             <div className={styles.skillDesc}>Frameworks:</div>
             <SkillIcon path={IconPathMap.react} alt="react" desc="React" />
+            <SkillIcon path={IconPathMap.angular} alt="angular" desc="Angular" />
             <SkillIcon path={IconPathMap.redux} alt="redux" desc="Redux" />
             <SkillIcon path={IconPathMap.express} alt="express" desc="Express" />
             <SkillIcon path={IconPathMap.spring} alt="spring" desc="Spring" />
-            <SkillIcon path={IconPathMap.angular} alt="angular" desc="Angular" />
           </div>
           <div className={styles.skillItem}>
             <div className={styles.skillDesc}>Additional:</div>

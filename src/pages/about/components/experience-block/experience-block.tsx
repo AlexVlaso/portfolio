@@ -78,9 +78,9 @@ const ExperienceBlock: React.FC = () => {
                   <div className={styles.itemSubtitle}>Binary Studio Academy | Remote</div>
                 </div>
                 <div className={styles.itemDesc}>
-                  Over the course of several months, our team of developers and testers was working on TowHub project
-                  (witch you can view on portfolio section). We developed app witch can help a customer find a truck sp
-                  simple like taxi.
+                  Over the course of several months, our team of developers and testers was working on the TowHub
+                  project (which you can view on the portfolio section). We developed an app that can help a customer
+                  find a truck so simple like a taxi.
                 </div>
               </div>
             </li>

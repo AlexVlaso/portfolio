@@ -18,10 +18,10 @@ const Navigation: React.FC<Properties> = ({ isColored }: Properties) => {
         <Link to="/about">About Me</Link>
       </li>
       <li className={styles.navLink}>
-        <Link to="/">Portfolio</Link>
+        <Link to="/portfolio">Portfolio</Link>
       </li>
       <li className={styles.navLink}>
-        <Link to="/">Contacts</Link>
+        <Link to="/contacts">Contacts</Link>
       </li>
     </ul>
   );
