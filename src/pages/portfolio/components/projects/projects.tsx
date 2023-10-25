@@ -5,12 +5,12 @@ import { data } from '../../../../data/data';
 import { ProjectItemMiddle } from '../../../../components/project-item-middle/project-item-middle';
 import { ProjectItemMain } from '../../../../components/project-item-main/project-item-main';
 
-const LayoutBlock: React.FC = () => {
+const Projects: React.FC = () => {
   return (
     <div className={styles.container}>
       <SectionHeader title="Portfolio" subtitle="Academy project" />
       <div className={styles.wrapperBig}>
-        <ProjectItemMain project={data.middle[0]} />
+        <ProjectItemMain />
       </div>
       <SectionHeader title="Frameworks" subtitle="Angular / React Projects" />
       <div className={styles.wrapperMiddle}>
@@ -28,4 +28,4 @@ const LayoutBlock: React.FC = () => {
   );
 };
 
-export { LayoutBlock };
+export { Projects };

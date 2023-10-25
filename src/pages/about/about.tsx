@@ -1,19 +1,15 @@
-import { Footer } from '../../components/footer/footer';
-import { Header } from '../../components/header/header';
 import { AboutBlock } from './components/about-block/about-block';
 import { CertificateBlock } from './components/certifitate-block/certificate-block';
 import { ExperienceBlock } from './components/experience-block/experience-block';
 
 const About = () => {
   return (
-    <div>
-      <Header />
+    <main>
       <AboutBlock />
       <ExperienceBlock />
       <CertificateBlock />
-      <Footer />
-    </div>
+    </main>
   );
 };
 
-export { About };
+export default About;

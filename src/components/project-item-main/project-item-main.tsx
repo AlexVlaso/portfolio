@@ -1,5 +1,4 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Project } from '../../libs/types/project.type';
 import { SkillIcon } from '../skill-icon/skill-icon';
 import styles from './styles.module.scss';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
@@ -13,12 +12,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { IconPathMap } from '../../libs/maps/icon-path.map';
 
-type Properties = {
-  project: Project;
-};
-
-const ProjectItemMain: React.FC<Properties> = ({ project }: Properties) => {
-  const { github } = project;
+const ProjectItemMain: React.FC = () => {
   const settings = {
     dots: true,
     infinite: true,
@@ -53,7 +47,7 @@ const ProjectItemMain: React.FC<Properties> = ({ project }: Properties) => {
       <div className={styles.additional}>
         <div className={styles.infoWrapper}>
           <div className={styles.infoTitle}>Project Information:</div>
-          <div className={styles.infoItem}> Team: 10 dev, 2 test and 3 couches</div>
+          <div className={styles.infoItem}> Team: 10 dev, 2 test and 3 coaches</div>
           <div className={styles.infoItem}> Development time: 2 month</div>
           <div className={styles.infoItem}> Commits: 339</div>
         </div>
@@ -77,7 +71,7 @@ const ProjectItemMain: React.FC<Properties> = ({ project }: Properties) => {
         </div>
       </div>
       <div className={styles.btnWrapper}>
-        <a href={github} target="_blank" rel="noreferrer" className={styles.btn}>
+        <a href="https://github.com/AlexVlaso/bsa-2023-towhub" target="_blank" rel="noreferrer" className={styles.btn}>
           <FontAwesomeIcon icon={faGithub} />
           View Code
         </a>

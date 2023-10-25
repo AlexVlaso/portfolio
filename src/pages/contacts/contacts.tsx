@@ -1,15 +1,11 @@
-import { Footer } from '../../components/footer/footer';
-import { Header } from '../../components/header/header';
 import { ContactsBlock } from './components/contacts-block/contacts-block';
 
 const Contacts = () => {
   return (
-    <div>
-      <Header />
+    <main>
       <ContactsBlock />
-      <Footer />
-    </div>
+    </main>
   );
 };
 
-export { Contacts };
+export default Contacts;

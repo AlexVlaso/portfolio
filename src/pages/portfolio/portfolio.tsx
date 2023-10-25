@@ -1,15 +1,12 @@
-import { Footer } from '../../components/footer/footer';
-import { Header } from '../../components/header/header';
-import { LayoutBlock } from './components/layout-block/layout-block';
+import { Projects } from './components/projects/projects';
+import '../../assets/styles/slick.scss';
 
 const Portfolio: React.FC = () => {
   return (
-    <div>
-      <Header />
-      <LayoutBlock />
-      <Footer />
-    </div>
+    <main>
+      <Projects />
+    </main>
   );
 };
 
-export { Portfolio };
+export default Portfolio;
