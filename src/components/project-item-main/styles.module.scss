@@ -1,0 +1,74 @@
+@import '/src/assets/styles/vars.scss';
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  border: 2px solid $grey;
+  border-radius: 10px;
+  overflow: hidden;
+  img {
+    height: 500px;
+  }
+}
+
+.title {
+  margin: 40px 0 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.desc {
+  padding: 0 10px;
+  text-align: center;
+}
+
+.additional {
+  margin-top: 20px;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  gap: 200px;
+  grid-template-columns: 255px 255px;
+}
+
+.infoTitle {
+  margin: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+.infoItem {
+  margin: 10px auto;
+}
+
+.techWrapper {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-weight: bold;
+}
+
+.techItems {
+  display: flex;
+  gap: 10px;
+}
+
+.btnWrapper {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  margin: 20px 0 10px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  gap: 10px;
+  width: 120px;
+  border: none;
+  border-radius: 10px;
+  background-color: $additional-color;
+  color: $yellow;
+}

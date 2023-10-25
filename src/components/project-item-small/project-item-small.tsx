@@ -13,7 +13,7 @@ const ProjectItemSmall: React.FC<Properties> = ({ project }: Properties) => {
   const { title, desc, img, github, site } = project;
   return (
     <div className={styles.container}>
-      <img src={img} alt={title} />
+      <img src={img[0]} alt={title} />
       <h3 className={styles.title}>{title}</h3>
       <div className={styles.desc}>{desc}</div>
       <div className={styles.techWrapper}>

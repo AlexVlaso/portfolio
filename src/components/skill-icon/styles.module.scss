@@ -1,6 +1,11 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .imgDesc {
   font-size: 10px;
-  text-align: center;
 }
 
 .icon {

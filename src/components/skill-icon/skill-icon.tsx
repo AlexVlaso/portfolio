@@ -10,7 +10,7 @@ type Properties = {
 
 const SkillIcon: React.FC<Properties> = ({ path, alt, desc }: Properties) => {
   return (
-    <div>
+    <div className={styles.container}>
       <img src={path} alt={alt} className={styles.icon} />
       <div className={styles.imgDesc}>{desc}</div>
     </div>

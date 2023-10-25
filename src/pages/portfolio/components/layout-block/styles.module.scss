@@ -4,10 +4,25 @@
   width: 1141px;
 }
 
-.wrapper {
-  margin-top: 50px;
+.wrapperBig {
+  margin: 50px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  row-gap: 50px;
+  grid-template-columns: 1fr;
   justify-items: center;
+}
+
+.wrapperMiddle {
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  justify-items: center;
+}
+
+.wrapperSmall {
+  margin: 50px 0 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
 }

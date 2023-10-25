@@ -1,0 +1,33 @@
+.slick-arrow {
+  width: 25px;
+  height: 25px;
+}
+.slick-prev {
+  left: 10px;
+  z-index: 1;
+}
+.slick-next {
+  right: 10px;
+}
+
+.slick-prev::before,
+.slick-next::before {
+  font-size: 28px;
+  color: rgb(163, 15, 15);
+  opacity: 1;
+}
+
+.slick-dots {
+  li {
+    button {
+      &::before {
+        font-size: 10px;
+        color: $yellow;
+      }
+    }
+  }
+}
+
+.slick-dots li.slick-active button:before {
+  color: $additional-light-color;
+}

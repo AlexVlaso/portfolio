@@ -1,0 +1,55 @@
+@import '/src/assets/styles/vars.scss';
+
+.container {
+  width: 100%;
+  border: 2px solid $grey;
+  border-radius: 10px;
+  overflow: hidden;
+  img {
+    height: 300px;
+  }
+}
+
+.title {
+  margin: 40px 0 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.desc {
+  padding: 0 10px;
+  text-align: center;
+}
+
+.techWrapper {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-weight: bold;
+}
+
+.techItems {
+  display: flex;
+  gap: 10px;
+}
+
+.btnWrapper {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  gap: 10px;
+  width: 120px;
+  border: none;
+  border-radius: 10px;
+  background-color: $additional-color;
+  color: $yellow;
+}
