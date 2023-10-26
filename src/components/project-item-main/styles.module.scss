@@ -72,3 +72,59 @@
   background-color: $additional-color;
   color: $yellow;
 }
+
+@media (max-width: 1050px) {
+  .container {
+    img {
+      height: 450px;
+    }
+  }
+}
+@media (max-width: 900px) {
+  .container {
+    img {
+      height: 400px;
+    }
+  }
+  .additional {
+    gap: 100px;
+  }
+}
+
+@media (max-width: 800px) {
+  .container {
+    img {
+      height: 350px;
+    }
+  }
+  .additional {
+    grid-template-columns: 255px;
+    text-align: center;
+    gap: 25px;
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    img {
+      height: 300px;
+    }
+  }
+  .techWrapper {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 320px;
+    img {
+      height: 200px;
+    }
+  }
+  .techItems {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+}

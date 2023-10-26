@@ -3,7 +3,7 @@
 .container {
   padding: 10px;
   margin: 0 auto;
-  width: 1141px;
+  max-width: 1141px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -47,4 +47,21 @@
 
 .navLink:last-child {
   border-right: none;
+}
+
+.burger {
+  display: none;
+}
+
+.navigation {
+  display: block;
+}
+
+@media (max-width: 800px) {
+  .burger {
+    display: block;
+  }
+  .navigation {
+    display: none;
+  }
 }

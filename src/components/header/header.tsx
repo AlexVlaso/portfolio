@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import logo from '../../../public/logo.png';
 import { Navigation } from '../navigation/navigation';
 import styles from './styles.module.scss';
+import { Burger } from '../burger/burger';
 
 const Header: React.FC = () => {
   return (
@@ -12,7 +13,12 @@ const Header: React.FC = () => {
           <div className={styles.logoText}>Alexandr Vlasov</div>
         </div>
       </Link>
-      <Navigation isColored />
+      <div className={styles.burger}>
+        <Burger />
+      </div>
+      <div className={styles.navigation}>
+        <Navigation isColored />
+      </div>
     </div>
   );
 };

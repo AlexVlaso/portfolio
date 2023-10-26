@@ -47,7 +47,7 @@ const ProjectItemMain: React.FC = () => {
       <div className={styles.additional}>
         <div className={styles.infoWrapper}>
           <div className={styles.infoTitle}>Project Information:</div>
-          <div className={styles.infoItem}> Team: 10 dev, 2 test and 3 coaches</div>
+          <div className={styles.infoItem}> Team: 10 dev, 2 QA and 3 coaches</div>
           <div className={styles.infoItem}> Development time: 2 month</div>
           <div className={styles.infoItem}> Commits: 339</div>
         </div>

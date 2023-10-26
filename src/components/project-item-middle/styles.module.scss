@@ -53,3 +53,47 @@
   background-color: $additional-color;
   color: $yellow;
 }
+
+@media (max-width: 1050px) {
+  .container {
+    width: 90%;
+    img {
+      height: 450px;
+    }
+  }
+}
+@media (max-width: 900px) {
+  .container {
+    img {
+      height: 400px;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .container {
+    img {
+      height: 350px;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    img {
+      height: 300px;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 320px;
+    img {
+      height: 200px;
+    }
+  }
+  .techWrapper {
+    flex-direction: column;
+  }
+}

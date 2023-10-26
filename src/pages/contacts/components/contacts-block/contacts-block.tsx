@@ -33,11 +33,11 @@ const ContactsBlock = () => {
       <div className={styles.links}>
         <a href="https://github.com/AlexVlaso" target="_blank" rel="noreferrer" className={styles.contactLink}>
           <FontAwesomeIcon icon={faGithub} />
-          GitHub
+          <div className={styles.btnText}> GitHub</div>
         </a>
         <a href="https://t.me/AlexVlas00" target="_blank" rel="noreferrer" className={styles.contactLink}>
           <FontAwesomeIcon icon={faTelegram} />
-          Telegram
+          <div className={styles.btnText}>Telegram</div>
         </a>
         <a
           href="https://www.linkedin.com/in/alex-vlasov-js"
@@ -46,7 +46,7 @@ const ContactsBlock = () => {
           className={styles.contactLink}
         >
           <FontAwesomeIcon icon={faLinkedin} />
-          Linkedin
+          <div className={styles.btnText}>Linkedin</div>
         </a>
       </div>
     </div>

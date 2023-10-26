@@ -7,9 +7,9 @@ const MainBlock: React.FC = () => {
     <div className={styles.container}>
       <img src={main} alt="main" className={styles.photo} />
       <div className={styles.side}>
-        <h1>Hi, I&apos;m Alexandr Vlasov </h1>
+        <h1 className={styles.title}>Hi, I&apos;m Alexandr Vlasov </h1>
         <h2 className={styles.subtitle}>Frontend Developer</h2>
-        <div>
+        <div className={styles.desc}>
           I am a goal-oriented Junior Frontend Developer with knowledge of HTML, CSS, JavaScript, TypeScript, React, and
           Node.js seeking to use technical proficiency and creativity to develop engaging user experiences and advance
           in a professional career. Looking to leverage effective debugging, code optimization and project collaboration

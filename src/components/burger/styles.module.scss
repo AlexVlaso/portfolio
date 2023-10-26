@@ -1,0 +1,35 @@
+@import '/src/assets/styles/vars.scss';
+
+.container {
+  display: block;
+  margin-right: 10px;
+  position: relative;
+}
+
+.btn {
+  border: none;
+  font-size: 25px;
+  background-color: transparent;
+  color: $yellow;
+}
+
+.menu {
+  position: absolute;
+  margin: 0;
+  padding: 0 10px;
+  top: 33px;
+  right: 0;
+  z-index: 10;
+  width: 200px;
+  border-radius: 10px;
+  background-color: $additional-color;
+}
+
+.navLink {
+  padding: 20px;
+  border-bottom: 1px solid $yellow;
+}
+
+.navLink:last-child {
+  border-bottom: none;
+}

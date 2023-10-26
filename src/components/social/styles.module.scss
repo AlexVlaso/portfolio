@@ -23,3 +23,9 @@
   transform: scale(1.2);
   transition: 0.3s all;
 }
+
+@media (max-width: 575px) {
+  .container {
+    justify-content: center;
+  }
+}

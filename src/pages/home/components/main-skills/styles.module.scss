@@ -4,8 +4,9 @@
   margin: 35px auto 0;
   padding: 15px 15px 0;
   display: flex;
+  align-items: center;
   gap: 30px;
-  width: 1141px;
+  max-width: 1141px;
   .subtitle {
     color: $additional-light-color;
   }
@@ -33,4 +34,39 @@
 .button:hover {
   background-color: $additional-light-color;
   cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  .container {
+    .title {
+      font-size: 25px;
+    }
+    .subtitle {
+      font-size: 22px;
+    }
+  }
+  .photo {
+    height: 400px;
+  }
+}
+
+@media (max-width: 700px) {
+  .desc {
+    font-size: 16px;
+  }
+  .photo {
+    height: 300px;
+  }
+}
+
+@media (max-width: 575px) {
+  .container {
+    text-align: center;
+  }
+  .photo {
+    display: none;
+  }
+  .desc {
+    font-size: 17px;
+  }
 }

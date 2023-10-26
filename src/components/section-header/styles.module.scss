@@ -29,3 +29,12 @@
   height: 5px;
   background-color: $additional-color;
 }
+
+@media (max-width: 700px) {
+  .title {
+    font-size: 22px;
+  }
+  .subtitle {
+    font-size: 17px;
+  }
+}

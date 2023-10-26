@@ -28,3 +28,10 @@
 .navLink:last-child {
   border-right: none;
 }
+
+@media (max-width: 575px) {
+  .navLink {
+    font-size: 12px;
+    padding: 0 15px;
+  }
+}
