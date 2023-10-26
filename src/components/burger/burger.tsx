@@ -17,16 +17,24 @@ const Burger = () => {
       {isOpen && (
         <ul className={styles.menu}>
           <li className={styles.navLink}>
-            <Link to="/">Home</Link>
+            <Link to="/" onClick={onClick}>
+              Home
+            </Link>
           </li>
           <li className={styles.navLink}>
-            <Link to="/about">About Me</Link>
+            <Link to="/about" onClick={onClick}>
+              About Me
+            </Link>
           </li>
           <li className={styles.navLink}>
-            <Link to="/portfolio">Portfolio</Link>
+            <Link to="/portfolio" onClick={onClick}>
+              Portfolio
+            </Link>
           </li>
           <li className={styles.navLink}>
-            <Link to="/contacts">Contacts</Link>
+            <Link to="/contacts" onClick={onClick}>
+              Contacts
+            </Link>
           </li>
         </ul>
       )}
