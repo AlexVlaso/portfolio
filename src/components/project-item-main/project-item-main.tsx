@@ -11,6 +11,7 @@ import main5 from '../../assets/img/projects/main_5.png';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { IconPathMap } from '../../libs/maps/icon-path.map';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const ProjectItemMain: React.FC = () => {
   const settings = {
@@ -25,11 +26,51 @@ const ProjectItemMain: React.FC = () => {
   return (
     <div className={styles.container}>
       <Slider {...settings}>
-        <img src={main1} alt="main1" />
-        <img src={main2} alt="main2" />
-        <img src={main3} alt="main3" />
-        <img src={main4} alt="main4" />
-        <img src={main5} alt="main5" />
+        <LazyLoadImage
+          src={main1}
+          alt="main1"
+          className={styles.photo}
+          effect="blur"
+          wrapperProps={{
+            style: { transitionDelay: '0.3s' },
+          }}
+        />
+        <LazyLoadImage
+          src={main2}
+          alt="main2"
+          className={styles.photo}
+          effect="blur"
+          wrapperProps={{
+            style: { transitionDelay: '0.3s' },
+          }}
+        />
+        <LazyLoadImage
+          src={main3}
+          alt="main3"
+          className={styles.photo}
+          effect="blur"
+          wrapperProps={{
+            style: { transitionDelay: '0.3s' },
+          }}
+        />
+        <LazyLoadImage
+          src={main4}
+          alt="main4"
+          className={styles.photo}
+          effect="blur"
+          wrapperProps={{
+            style: { transitionDelay: '0.3s' },
+          }}
+        />
+        <LazyLoadImage
+          src={main5}
+          alt="main5"
+          className={styles.photo}
+          effect="blur"
+          wrapperProps={{
+            style: { transitionDelay: '0.3s' },
+          }}
+        />
       </Slider>
       <h3 className={styles.title}>TowHub</h3>
       <div className={styles.desc}>

@@ -6,6 +6,7 @@ import { faChrome, faGithub } from '@fortawesome/free-brands-svg-icons';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 type Properties = {
   project: Project;
@@ -26,7 +27,15 @@ const ProjectItemMiddle: React.FC<Properties> = ({ project }: Properties) => {
     <div className={styles.container}>
       <Slider {...settings}>
         {img.map((src, i) => (
-          <img src={src} alt={title} key={i} />
+          <LazyLoadImage
+            src={src}
+            alt={title}
+            key={i}
+            effect="blur"
+            wrapperProps={{
+              style: { transitionDelay: '0.3s' },
+            }}
+          />
         ))}
       </Slider>
       <h3 className={styles.title}>{title}</h3>

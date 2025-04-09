@@ -4,6 +4,7 @@ import { faChrome, faGithub } from '@fortawesome/free-brands-svg-icons';
 import styles from './styles.module.scss';
 import { SkillIcon } from '../skill-icon/skill-icon';
 import { Project } from '../../libs/types/types';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 type Properties = {
   project: Project;
@@ -13,7 +14,14 @@ const ProjectItemSmall: React.FC<Properties> = ({ project }: Properties) => {
   const { title, desc, img, github, site } = project;
   return (
     <div className={styles.container}>
-      <img src={img[0]} alt={title} />
+      <LazyLoadImage
+        src={img[0]}
+        alt={title}
+        effect="blur"
+        wrapperProps={{
+          style: { transitionDelay: '0.3s' },
+        }}
+      />
       <h3 className={styles.title}>{title}</h3>
       <div className={styles.desc}>{desc}</div>
       <div className={styles.techWrapper}>

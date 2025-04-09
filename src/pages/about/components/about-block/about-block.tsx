@@ -3,6 +3,7 @@ import main from '../../../../assets/img/main_2.png';
 
 import { SectionHeader } from '../../../../components/section-header/section-header';
 import { SkillRating } from '../../../../components/skill-rating/skill-rating';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const AboutBlock = () => {
   return (
@@ -12,13 +13,23 @@ const AboutBlock = () => {
         <div className={styles.desc}>
           <h2 className={styles.title}>Who am I?</h2>
           <div className={styles.text}>
-            I am a self-driven front-end developer and have been in the industry for more than 2 years. I have a keen
-            eye for detail, and most of my working life has been dedicated to self-study, so learning a new technology
-            or framework on my own is not a problem for me. In addition, in 2023, I also graduated from the Binary
-            Studio Academy (more than 9 thousand students were selected at the first stage of the academy). At the last
-            stage of the academy, I worked as a Full-Stack Developer, where, together with a team of developers and
-            testers, I was actively developing the TowHub project, which you can see in the portfolio section. Always
-            ready for cooperation and new achievements.
+            I’m a Full-Stack Developer with a knack for building sophisticated, performance-driven web applications that
+            stand out. My work revolves around solving intricate technical challenges while ensuring that systems are
+            not only scalable but also intuitive and easy to maintain. From AI-powered automation to secure crypto
+            platforms, I’ve worked on projects that push the envelope of what technology can do for businesses and users
+            alike.
+            <br />
+            <br />
+            At Lumitech and Technorely, I’ve sharpened my expertise in frontend and backend technologies, diving into
+            complex systems like banking analytics and blockchain-based solutions. Tools like TypeScript, React,
+            Node.js, and PostgreSQL are my daily companions, and I thrive on refining code through best practices and
+            cutting-edge CI/CD workflows.
+            <br />
+            <br />
+            What drives me is a relentless pursuit of engineering excellence — constantly challenging myself, exploring
+            new technologies, and collaborating with innovative teams. I believe the best solutions come from
+            continuously evolving and adapting to new insights and challenges. Let’s build something that makes a
+            difference.
           </div>
           <div className={styles.skills}>
             <div className={styles.skill}>
@@ -61,7 +72,16 @@ const AboutBlock = () => {
             </div>
           </div>
         </div>
-        <img src={main} alt="main" className={styles.photo} />
+        <LazyLoadImage
+          src={main}
+          alt="main"
+          className={styles.photo}
+          effect="blur"
+          wrapperProps={{
+            style: { transitionDelay: '0.5s' },
+            className: styles.photoWrapper,
+          }}
+        />
       </div>
     </div>
   );

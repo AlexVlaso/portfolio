@@ -25,9 +25,10 @@ const ExperienceBlock: React.FC = () => {
                   <div className={styles.itemSubtitle}>IT Academy</div>
                 </div>
                 <div className={styles.itemDesc}>
-                  I have finished Binary Studio Academy. It was the complex full-stack course with many selection steps.
-                  I have learned information about React, Express, socket IO and many another topics by practice with
-                  home projects.
+                  Graduated from a competitive full-stack development program, ranking in the top 84 out of 9,000+
+                  applicants. Gained hands-on experience with React, Express, Socket.IO, Node.js, and PostgreSQL,
+                  building production-ready applications. Focused on clean architecture, Agile methodologies, and modern
+                  development practices, while improving problem-solving and collaboration skills.
                 </div>
               </div>
             </li>
@@ -41,9 +42,10 @@ const ExperienceBlock: React.FC = () => {
                   <div className={styles.itemSubtitle}>Web development courses</div>
                 </div>
                 <div className={styles.itemDesc}>
-                  During two last two years, I have finished around thirty courses. I started my education with Java
-                  courses, then SQL and frameworks, and after that, I built a full-stack shop website and started dipped
-                  learn front end part
+                  Completed over 30 web development courses, covering Java, SQL, JavaScript frameworks, and React. Built
+                  several full-stack projects, including an e-commerce site, while gaining in-depth knowledge of
+                  front-end technologies, responsive design, and modern development practices. These courses provided
+                  the foundation for my career in full-stack development.
                 </div>
               </div>
             </li>
@@ -57,9 +59,10 @@ const ExperienceBlock: React.FC = () => {
                   <div className={styles.itemSubtitle}>Master&apos;s degree | Kharkiv</div>
                 </div>
                 <div className={styles.itemDesc}>
-                  I was a student at State Biotechnological University from 2017 to 2022. The agricultural sphere
-                  wasn&apos;t my cup of tea. By the way, I finished my education at this university and got an honors
-                  diploma.
+                  Earned an honors diploma in agricultural engineering, where I developed strong analytical, research,
+                  and problem-solving skills. While I ultimately transitioned to software development, my academic
+                  background has provided a solid foundation in critical thinking, data analysis, and project
+                  management—skills that have been invaluable in my development career.
                 </div>
               </div>
             </li>
@@ -74,13 +77,14 @@ const ExperienceBlock: React.FC = () => {
                   <div className={styles.round}>
                     <img src={pc} alt="pc" className={styles.itemImg} />
                   </div>
-                  <div className={styles.itemTitle}>Junior Full-Stack Engineer</div>
-                  <div className={styles.itemSubtitle}>Binary Studio Academy | Remote</div>
+                  <div className={styles.itemTitle}>Full-Stack Developer</div>
+                  <div className={styles.itemSubtitle}>Lumitech | Remote</div>
                 </div>
                 <div className={styles.itemDesc}>
-                  Over the course of several months, our team of developers and testers was working on the TowHub
-                  project (which you can view on the portfolio section). We developed an app that can help a customer
-                  find a truck so simple like a taxi.
+                  Currently optimizing web applications, focusing on performance, scalability, and maintainability.
+                  Contributed to AI-driven automation and a banking analytics platform, integrating complex data
+                  processing and visualization features. Collaborating with product and design teams to ensure seamless
+                  user experiences, while adhering to clean code practices and architecture principles.
                 </div>
               </div>
             </li>
@@ -90,12 +94,14 @@ const ExperienceBlock: React.FC = () => {
                   <div className={styles.round}>
                     <img src={designer} alt="designer" className={styles.itemImg} />
                   </div>
-                  <div className={styles.itemTitle}>Agronomist</div>
-                  <div className={styles.itemSubtitle}>Berries farm | Kharkiv</div>
+                  <div className={styles.itemTitle}>Full-Stack Developer</div>
+                  <div className={styles.itemSubtitle}>Technorely | Remote</div>
                 </div>
                 <div className={styles.itemDesc}>
-                  It was a typical job for an agronomist. I had a small team whose work I had to supervise. It was my
-                  job to draw up a work plan for my team and to do seasonal field work.
+                  Worked on developing scalable and secure applications in the crypto and healthcare sectors. Led
+                  front-end development, implementing responsive UI components, optimizing performance, and integrating
+                  APIs using modern frameworks. Delivered high-quality features, collaborated across teams, and
+                  maintained coding standards in fast-paced development environments.
                 </div>
               </div>
             </li>
@@ -105,12 +111,14 @@ const ExperienceBlock: React.FC = () => {
                   <div className={styles.round}>
                     <img src={developer} alt="developer" className={styles.itemImg} />
                   </div>
-                  <div className={styles.itemTitle}>Plant protection specialist</div>
-                  <div className={styles.itemSubtitle}>Saterplant | Scharrel, Germany (02.2020-07.2020)</div>
+                  <div className={styles.itemTitle}>Junior Full-Stack Developer</div>
+                  <div className={styles.itemSubtitle}>Binary Studio Academy | Remote</div>
                 </div>
                 <div className={styles.itemDesc}>
-                  It was an internship in Europe from my university. I had to help with plant protection and other types
-                  of work for this company. For me personally it was great practice for my spoken English.
+                  Developed a production-ready application using TypeScript, React, Node.js, and PostgreSQL during an
+                  intensive full-stack program. Gained hands-on experience in CI/CD, API design, and Git workflows.
+                  Emphasized problem-solving, collaboration, and code quality, building a strong foundation in both
+                  frontend and backend development.
                 </div>
               </div>
             </li>

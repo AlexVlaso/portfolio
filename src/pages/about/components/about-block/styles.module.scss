@@ -6,7 +6,6 @@
 }
 
 .wrapper {
-  margin-top: 25px;
   display: flex;
   justify-content: center;
   gap: 50px;
@@ -103,6 +102,9 @@
 @media (max-width: 575px) {
   .container {
     text-align: center;
+  }
+  .photoWrapper {
+    display: none;
   }
   .photo {
     display: none;
